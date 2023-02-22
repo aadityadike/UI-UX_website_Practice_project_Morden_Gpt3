@@ -7,7 +7,7 @@ import {
   WhatGPT3,
   Header,
 } from "./containers";
-import { CTA, Aritcle, Brand, Feature, Navbar } from "./components";
+import { CTA, Brand, Navbar } from "./components";
 import "./App.css";
 
 const App = () => {
