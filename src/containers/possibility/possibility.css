@@ -48,10 +48,31 @@
   font-size: 16px;
   line-height: 30px;
   font-weight: 400;
-  
+
   margin-bottom: 2rem;
 }
 
 .gpt3_possibility-content_container :last-child {
   color: #ff8a71;
+}
+
+@media screen and (max-width: 950px) {
+  .gpt3_possibility {
+    flex-direction: column;
+  }
+
+  .gpt3_possibility-image {
+    margin: 1rem 0;
+  }
+
+  .gpt3_possibility-content_container {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .gpt3_possibility-image img {
+    height: 100%;
+    width: 100%;
+  }
 }
