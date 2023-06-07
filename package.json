@@ -39,5 +39,8 @@
   "description": "gpt application",
   "main": "index.js",
   "author": "aadityadike <adityadike123@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
